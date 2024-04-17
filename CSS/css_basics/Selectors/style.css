@@ -1,0 +1,49 @@
+/* Universal
+*{
+    text-align:center;
+    width:1000px;
+    background-color: beige;
+    color:rgb(172, 123, 18);
+    text-align:justify;
+}
+*/
+
+/*  Type
+h2{
+    background-color:blue;
+    text-align:center;
+    font-size:60px;
+    font-weight:900
+}
+p{
+    color:darkslategrey;
+    border:solid ;
+    padding:10px;
+}
+*/
+
+/*  Id Selector
+#heading{
+    background-color:rgb(150, 150, 215);
+    text-align:center;
+    font-size:60px;
+    font-weight:900
+}
+#about{
+    color:rgb(2, 31, 31);
+    border:solid ;
+    padding:10px;
+}
+*/
+
+/*
+.box{
+    color:rgb(2, 31, 31);
+    border:solid ;
+    padding:10px;
+}
+
+.head{
+    color:aqua; this shows if we nest a class inside class then nested class ka properties override kr dega main class ko.
+}
+*/
