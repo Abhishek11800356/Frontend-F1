@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jacquard+24&display=swap');
+*{
+    margin:10px;
+    padding:10px;
+}
+
+/* font family */
+
+  /* choose from the dropdown
+div{
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        color:chartreuse;
+        text-align:center;
+    }
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:aqua;
+}
+*/
+/* Import your own 
+div{
+    h1{
+
+        font-family:"Jacquard 24", system-ui;
+        color:rgb(255, 106, 0);
+        text-align:center;
+        text-shadow:0px 0px 10px black;
+    }
+    h2{
+        font-family:"Annapurna SIL", serif;
+    }
+    font-family: "Inter", sans-serif;
+    color:aqua;
+}
+*/
+
+/*Font Style*/
+/*
+h1{
+    font-style:normal;
+}
+p{
+    font-style:italic;
+}
+*/
+
+/* font-weight
+#eg1{
+    font-weight:100;
+}
+#eg2{
+   font-weight: 900;
+}
+h2{
+    font-weight: bolder;
+}
+p{
+    font-weight:900;
+}
+*/
+
+#parent{
+    font-size:100px;
+    text-align:center;
+}
+#eg1{
+   font-size:60px;
+   text-align: justify;
+}
+#eg2{
+    font-size:20px;
+    text-align:start;
+}
+h2{
+    font-size:xx-large;
+}
+p{
+    font-size:x-small;
+}
