@@ -1,0 +1,60 @@
+#eg1{
+    width:400px;
+    height:300px;
+    background-color:aqua;
+    margin:50px; /*all side 50px margin created*/
+    margin:5cm;
+    margin:2mm;
+    margin:auto; /*It is used to put at center*/
+    margin:20%;
+    /* two value x-axis,y-axis */
+    margin:20px 50px;
+
+    /* three value top left/right bottom */
+    margin:20px 30px 20px;
+
+    /* four value top right bottom left */ 
+    margin:10px 50px 20px 80px;
+
+    /* inline margin (only on left and right of the element*/
+    margin-inline:30%;
+
+    margin-top:50px;
+    margin-right:20px;
+    margin-bottom:100px;
+    margin-left:10px;
+}
+
+#eg3{
+     
+    width:300px;
+    height:300px;
+    background-color:aqua;
+   /* padding:50px; /*all side 50px margin created*/
+      /* two value x-axis,y-axis */
+   /*  padding:20px 50px;
+
+      /* three value top left/right bottom */
+    /*  padding:20px 30px 20px;
+  
+      /* four value top right bottom left */ 
+    /*  padding:10px 50px 20px 80px;
+
+      padding-top:50px;
+      padding-right:20px;
+      padding-bottom:100px;
+      padding-left:10px;
+      */
+    /*  padding-inline:50px; */
+   padding:30px; 
+   /*this helps to give width and height to either content or border-box */
+   box-sizing:border-box;
+   
+   /*border Properties */
+   border:solid 2px black;
+   border-width:2px;
+   border-style:dotted;
+   border-color: black;
+   border-radius:5px;
+   border-top-right-radius:30px;
+}
