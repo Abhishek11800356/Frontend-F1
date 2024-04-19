@@ -1,0 +1,44 @@
+#box{
+    width:300px;
+    height:300px;
+    border:solid;
+    /* background-color */
+   /* background-color:aquamarine; */
+
+   /* background image */
+   background-image:url("https://images.unsplash.com/photo-1713191352960-911f277876a7?q=80&w=1035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   /*the image is of high pixel so we need to fix the size of the image */
+
+   /*background Size accepts two val - width height|| can also be given one value and will be considered as width*/
+   background-size:300px 300px;
+
+   /* to view the image in the entire space then give 100% 100% 
+   background-size:50% 50%; */
+
+   background-size:contain; /* Image has to be inside the box*/
+   background-size:cover; /* it will be covering the entire space of the box and may go out of the boundary vertically */
+   /*
+   background-size:100% 200px;
+   background-size:300px 80%;  */
+
+  /*Background Repeat */
+  background-size:100px 100px;
+  background-repeat: repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat; 
+
+
+  /* Background Position */
+  background-position:center;
+  background-position:bottom;
+  background-position:left;
+  background-position:right;
+  background-position:bottom right;
+  background-position:top right;
+  background-position:top left;
+  background-position:bottom left;
+  background-position:100px 40px;
+
+  
+}
