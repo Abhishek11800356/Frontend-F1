@@ -1,1 +1,162 @@
+/* #eg1{
+    width:300px;
+    height:300px;
+    background-color: blueviolet;
+    /* By default position:static */
+    /* so these top,left,right,bottom will not work until its changed to relative */
+    /* top:100px;
+    left:100px;
+} */ 
+
+/* #eg1{
+    width:300px;
+    height:300px;
+    background-color: blueviolet;
+    /* Making position:relative */
+    /* relative to the position of nearest ancestor */
+    /* position:relative;
+    top:100px;
+    left:100px;
+} */ 
+
+/* Making position:fixed */
+/* This means its relative to the viewport that means it will not change the place on scrolling also. */
  
+/* #eg1{
+    width:300px;
+    height:300px;
+    background-color: blueviolet;
+    /* By default position:static */
+     /* position:relative;
+    
+} */ 
+
+/* #icon{
+    width:40px;
+    height:40px;
+    background-color:#40C351;
+    border-radius:50%;
+    position:fixed; /*it will not leave any blank area */
+    /* bottom:10px;
+    left:20px;
+    
+}  */ 
+
+
+/* Position Sticky*/
+/* This is based on the position scroll position */
+/* Pehle ye relative rehta hai jaise hi ek particular position pe pahunchta hai ye fixed ho jata hai this is called position sticky*/
+
+/* *{
+    padding:0px;
+    margin:0px;
+}
+
+#eg1{
+    width:300px;
+    height:300px;
+    background-color: blueviolet;
+    /* By default position:static */
+      /* position:relative;
+    
+} */
+
+/* #eg2{
+    width:300px;
+    height:300px;
+    background-color: aquamarine;
+    position:sticky;
+     top:100px; /* jaise hi top se 100px pahunchega fix ho jayega fir vaha se ni hilega; */
+/* } */
+/* 
+#nav{
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    box-sizing:border-box;
+    width:100vw;
+    position:stick;
+    top:0px;
+}
+
+#nav>span{
+    padding:0px 35px;
+}  */
+
+
+
+/* Understanding the blank space left by sticky and not by fixed*/
+
+/* #nav{
+    background-color: black;
+    color:white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    box-sizing:border-box;
+    width:100vw;
+    position:stick;
+    top:0px;
+}
+
+#nav>span{
+    padding:0px 35px;
+} 
+
+.box{
+    width:300px;
+    height:300px;
+    border:solid 1px black;
+    position:sticky;
+    top:200px;
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+} */
+
+
+
+
+/* Position Absolute */
+/* it is relative to the nearest positioned ancestor*/
+/* whreas in case of fixed it was relative to viewport */
+
+.box-5{
+    width: 600px;
+    height:600px;
+    background-color: chartreuse;
+    position:relative;
+    border:solid;
+}
+
+#box-6{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    border:solid;
+}
+
+#box-7{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+    border:solid;
+}
