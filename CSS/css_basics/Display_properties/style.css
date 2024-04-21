@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* Block like properties to block elements */
+/* #eg1{
+    background-color: aqua;
+    width:300px;
+    height:300px;
+    margin:20px;
+}
+#eg2{
+    background-color:red;
+}
+
+/* Lets See if we can give the same property to inline */
+/* #eg3{
+    background-color: aqua;
+    width:300px;
+    height:300px;
+    margin:20px;  /* only horizontal margins are applied */ 
+/* }  */ 
+
+
+/* Now using the display properties 
+   we will convert the block level to Inline element */
+   /* #eg1{
+    display:inline;
+    background-color: aqua;
+    width:300px;
+    height:300px;
+    margin:20px;
+} */
+
+
+/* Now using the display properties 
+   we will convert the Inline element to block level element */
+
+   /* #eg3{
+    display:block;
+    background-color: aqua;
+    width:300px;
+    height:300px;
+    margin:20px;  /* only horizontal margins are applied */ 
+/* } */
+  
+
+/* Now using the display properties 
+   we will convert both block level to Inline element */
+   /* #eg1{
+    display:inline;
+    background-color: aqua;
+    width:300px;
+    height:300px;
+    margin:20px;
+}
+
+#eg2{
+    display:inline;
+    background-color: red;
+} */
+
+
+
+/* Now using the display properties 
+   we will remove the display properties from eg1 and eg2 {by default they will behave as block level
+    and we will give eg3 that is inline element a dispaly property of block*/
+   /* #eg1{
+    background-color: aqua;
+    width:300px;
+    height:300px;
+    margin:20px;
+}
+
+#eg2{
+    background-color: red;
+}
+
+#eg3{
+    display:block;
+    background-color: aqua;
+    width:300px;
+    height:300px;
+    margin:20px;  /* only horizontal margins are applied */ 
+ /* } */ 
+ 
+ 
+/* Now using the display properties 
+    we will use inline -block properties on eg1 eg2 and eg3  */
+    #eg1{
+        display:inline-block;
+        background-color: aqua;
+        width:300px;
+        height:300px;
+        margin:20px;
+    }
+    
+    #eg2{
+        display:inline-block;
+        background-color: red;
+    }
+    
+    #eg3{
+        display:inline-block;
+        background-color: aqua;
+        width:300px;
+        height:300px;
+        margin:20px;  /* only horizontal margins are applied */ 
+     } 
+
+
+
+     /* Display none properties */
+     #eg4{
+        background-color: purple;
+        width:300px;
+        height:300px;
+        margin:30px;
+        display:none;
+     }
