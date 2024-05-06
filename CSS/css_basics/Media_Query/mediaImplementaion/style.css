@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 5px 10px black;
+    padding:10px;
+    background-color: aliceblue;
+}
+
+.brand{
+    font-size:25px;
+    font-weight: 900;
+}
+
+.links>ul{
+    display: flex;
+    align-items:center;
+
+}
+.links>ul>li{
+    list-style-type: none;
+}
+
+.links>ul>li>a{
+    display:flex;
+    text-decoration: none;
+    color:rgb(0, 109, 226);
+    padding-inline:15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.btn{
+   border:1px solid grey;
+   padding:10px 30px;
+   font-size: 20px;
+   border-radius: 7px; 
+}
+
+.card{
+    width:90vw;
+    border:1px solid grey;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 100px;
+    padding:20px;
+    display:flex;
+    justify-content: space-around;
+} 
+
+
+.card>img{
+    height:400px;
+    width:40%;
+}
+
+#testimonial-body{
+   width:50%;
+   display:flex;
+   flex-direction:column;
+   justify-content: space-between;
+   height:400px;
+}
+
+footer{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-around;
+    background-color:rgb(35,47,62); 
+    padding:100px 0px;
+}
+
+footer>div>h4{
+    color:#ffffff;
+    font-size:25px;
+    font-weight:400;
+    margin-bottom:10px;
+}
+
+footer>div>ul>li{
+list-style-type:none;
+}
+
+footer>div>ul>li>a{
+    text-decoration: none;
+   color: rgb(219,221,195);
+   font-size:10px;
+}
+
+#testimonial-heading{
+    font-size: 30px;
+    margin-bottom:10px;
+}
+
+
+@media screen and (max-width:500px){
+    .links>ul,nav{
+        flex-direction:column;
+    }
+    .btn{
+        margin-top: 10px;
+        display:inline-block;
+    }
+    .card{
+        flex-direction:column;
+    }
+    .card>img{
+        width:100%;
+    }
+    #testimonial-body{
+       width:100%; 
+       height:100%;
+    } 
+    
+    footer{
+        padding:0px;
+        flex-wrap:wrap;
+    }
+
+    footer>div{
+        margin-top:50px;
+        text-align:center;
+    }
+}
+

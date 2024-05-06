@@ -1,0 +1,56 @@
+.box{
+   height:200px;
+   width:200px;
+   background-color: rgb(205, 205, 19);
+}
+
+/* This says the media query will be true only when the Screen width will be from 0-499px width */
+/* @media screen and (max-width:499px)
+{
+    .box{
+    background-color:rgb(237, 123, 16);
+    /* height:100vh; */
+    /* width:100vw;
+    }
+
+    .text-1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+        font-style: italic;
+        text-align: justify;
+    }
+} */ 
+
+/* Media query for Orientaion of the screen LANDSCAPE or PORTRAIT*/
+/* @media screen and (orientation:landscape)
+{
+    .box{
+    background-color:rgb(237, 123, 16);
+    width:100vw;
+    }
+
+    .text-1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+        font-style: italic;
+        text-align: justify;
+    }
+} */
+
+/* For exact value of height or width */
+/* this means the media query will only be applied when width = 500px not for any other value higher or smaller */
+@media screen and (width:500px)
+{
+    .box{
+    background-color:rgb(237, 123, 16);
+    /* height:100vh; */
+    width:100vw;
+    }
+
+    .text-1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size:20px;
+        font-style: italic;
+        text-align: justify;
+    }
+}
