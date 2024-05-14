@@ -1,0 +1,28 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+/* nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+.refrence_links>ul{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.refrence_links>ul>li{
+    list-style-type: none;
+    padding:10px 0px 0px 25px;
+} 
+
+.refrence_links>ul>li>a{
+
+    text-decoration: none;
+    color:#4f4f4f;
+}
