@@ -19,7 +19,7 @@ p{
     color:darkslateblue;
     text-align:center;
 }
-
+/*
 #Center{
     text-align:center;
     color:rgb(71, 171, 96);
@@ -77,6 +77,7 @@ p{
 
 h1{
     text-shadow:-10px  10px 0px blue;
+    
 }
 
 #eg1{

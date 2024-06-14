@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jacquard+24&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jacquard+24&display=swap'); */
 *{
     margin:10px;
     padding:10px;
@@ -6,18 +6,18 @@
 
 /* font family */
 
-  /* choose from the dropdown
+  choose from the dropdown
 div{
     h1{
-        font-family: Arial, Helvetica, sans-serif;
-        color:chartreuse;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:blue;
         text-align:center;
     }
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:;
     color:aqua;
 }
-*/
-/* Import your own 
+/* 
+Import your own 
 div{
     h1{
 
@@ -31,8 +31,8 @@ div{
     }
     font-family: "Inter", sans-serif;
     color:aqua;
-}
-*/
+} */
+
 
 /*Font Style*/
 /*

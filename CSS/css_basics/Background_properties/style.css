@@ -15,6 +15,7 @@
    /* to view the image in the entire space then give 100% 100% 
    background-size:50% 50%; */
 
+   
    background-size:contain; /* Image has to be inside the box*/
    background-size:cover; /* it will be covering the entire space of the box and may go out of the boundary vertically */
    /*
@@ -22,7 +23,7 @@
    background-size:300px 80%;  */
 
   /*Background Repeat */
-  background-size:100px 100px;
+   background-size:100px 100px; 
   background-repeat: repeat;
   background-repeat: repeat-x;
   background-repeat: repeat-y;
